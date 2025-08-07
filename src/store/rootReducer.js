@@ -1,8 +1,10 @@
 import { combineReducers } from "@reduxjs/toolkit";
 import authReducer from '../features/auth/authSlice';
+import chatReducer from '../features/chat/chatSlice';
 
 const rootReducer = combineReducers({
-    auth: authReducer
+    auth: authReducer,
+    chat: chatReducer
 })
 
 export default rootReducer;
