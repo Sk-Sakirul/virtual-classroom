@@ -4,7 +4,7 @@ import chatSlice from "../features/chat/chatSlice.js";
 import whiteboardSlice from "../features/whiteboard/whiteboardSlice.js";
 import filesSlice from "../features/files/fileSlice.js";
 import videoSlice from "../features/video/videoSlice.js";
-// import participationSlice from "../features/participation/participationSlice.js";
+import participationSlice from "../features/participation/participationSlice.js";
 
 const rootReducer = combineReducers({
   auth: authSlice,
@@ -12,7 +12,7 @@ const rootReducer = combineReducers({
   whiteboard: whiteboardSlice,
   files: filesSlice,
   video: videoSlice,
-//   participation: participationSlice,
+  participation: participationSlice,
 });
 
 export default rootReducer;

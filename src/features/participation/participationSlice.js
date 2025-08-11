@@ -34,6 +34,9 @@ const participationSlice = createSlice({
     setParticipationData: (state, action) => {
       state.participationData = action.payload;
     },
+    setParticipantsRealtime: (state, action) => {
+      state.participationData = action.payload;
+    },
     updateParticipantEngagement: (state, action) => {
       const { userId, engagement } = action.payload;
       const participantIndex = state.participationData.findIndex(
@@ -81,6 +84,7 @@ export const {
   setTopParticipants,
   setEngagementOverTime,
   setParticipationData,
+  setParticipantsRealtime,
   updateParticipantEngagement,
   incrementMetric,
   setSelectedTimeRange,
