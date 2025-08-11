@@ -8,7 +8,7 @@ The platform enables teachers and students to collaborate in real time, share re
 Frontend | Backend (Firebase Services) | Fullstack
 
 ## Deployed App
-Frontend: https://your-frontend-url.com  
+Frontend: https://virtual-classroom-sable.vercel.app/ 
 Backend: https://firebase.google.com  
 Database: https://firebase.google.com/products/firestore
 
